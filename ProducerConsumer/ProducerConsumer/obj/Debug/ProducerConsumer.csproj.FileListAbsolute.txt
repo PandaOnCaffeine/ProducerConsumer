@@ -1,0 +1,8 @@
+H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\bin\Debug\ProducerConsumer.exe.config
+H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\bin\Debug\ProducerConsumer.exe
+H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\bin\Debug\ProducerConsumer.pdb
+H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.csproj.AssemblyReference.cache
+H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.csproj.SuggestedBindingRedirects.cache
+H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.csproj.CoreCompileInputs.cache
+H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.exe
+H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.pdb
