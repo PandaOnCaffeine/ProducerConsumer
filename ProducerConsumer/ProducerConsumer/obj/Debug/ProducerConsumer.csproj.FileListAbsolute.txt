@@ -6,3 +6,11 @@ H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerCo
 H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.csproj.CoreCompileInputs.cache
 H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.exe
 H:\Programming\H2\Threads\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.pdb
+C:\Users\Tue\Source\Repos\ProducerConsumer\ProducerConsumer\ProducerConsumer\bin\Debug\ProducerConsumer.exe.config
+C:\Users\Tue\Source\Repos\ProducerConsumer\ProducerConsumer\ProducerConsumer\bin\Debug\ProducerConsumer.exe
+C:\Users\Tue\Source\Repos\ProducerConsumer\ProducerConsumer\ProducerConsumer\bin\Debug\ProducerConsumer.pdb
+C:\Users\Tue\Source\Repos\ProducerConsumer\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.csproj.AssemblyReference.cache
+C:\Users\Tue\Source\Repos\ProducerConsumer\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tue\Source\Repos\ProducerConsumer\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.csproj.CoreCompileInputs.cache
+C:\Users\Tue\Source\Repos\ProducerConsumer\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.exe
+C:\Users\Tue\Source\Repos\ProducerConsumer\ProducerConsumer\ProducerConsumer\obj\Debug\ProducerConsumer.pdb

@@ -9,51 +9,52 @@ namespace ProducerConsumer
 {
     internal class Program
     {
-        static Queue<object> something = new Queue<object>();
+        static Queue<object> Coffee = new Queue<object>();
 
         static void Main(string[] args)
         {
 
-            Thread c1 = new Thread(new ThreadStart(GetSomething));
+            Thread c1 = new Thread(new ThreadStart(GetCoffee));
             c1.Start();
 
-            Thread p1 = new Thread(new ThreadStart(RestockSomething));
+            Thread p1 = new Thread(new ThreadStart(RestockCoffee));
             p1.Start();
 
             Console.ReadLine();
         }
-        static public void GetSomething()
+        static public void GetCoffee()
         {
             while (true)
             {
 
-                lock (something)
+                lock (Coffee)
                 {
                     Thread.Sleep(100);
-                    if (something.Count < 2)
+                    if (Coffee.Count < 2)
                     {
-                        Monitor.Wait(something);
+                        Monitor.Wait(Coffee);
                     }
-                    something.Dequeue();
+                    Coffee.Dequeue();
 
-                    Console.WriteLine(something.Count + " Count | Consumed");
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine(Coffee.Count + " Count | Coffee Consumed");
                 }
             }
         }
-        static public void RestockSomething()
+        static public void RestockCoffee()
         {
             while (true)
             {
 
-                lock (something)
+                lock (Coffee)
                 {
-                    int some = 1;
-                    Thread.Sleep(50);
-                    something.Enqueue(some);
+                    Thread.Sleep(100);
+                    Coffee.Enqueue(1);
 
-                    Console.WriteLine(something.Count + " Count | produced");
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine(Coffee.Count + " Count | Coffee produced");
 
-                    Monitor.PulseAll(something);
+                    Monitor.PulseAll(Coffee);
                 }
             }
         }
